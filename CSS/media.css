@@ -1,0 +1,184 @@
+/* Media Queries */
+
+@media (max-width: 1250px) {
+  /* POPULAIRES */
+
+  .popular-housing {
+    flex-direction: column;
+  }
+
+  .popular {
+    order: -1;
+  }
+
+  .populaires {
+    flex-basis: 33%;
+  }
+
+  .popular-card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popular-flex .stars-coeurdeleau {
+    padding-top: 73px;
+  }
+
+  /* HEBERGEMENTS */
+
+  #housing {
+    width: 100%;
+  }
+
+  .hebergements .card {
+    width: 48%;
+  }
+
+  /* ACTIVITES */
+
+  .activity {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-size {
+    width: 100%;
+  }
+
+  .big {
+    height: 250px;
+  }
+
+  .big img {
+    object-fit: cover;
+    height: 206px;
+  }
+
+  .medium {
+    height: 250px;
+  }
+
+  .medium img {
+    object-fit: cover;
+    height: 206px;
+  }
+
+  .small {
+    height: 250px;
+  }
+
+  .small img {
+    object-fit: cover;
+    height: 206px;
+  }
+}
+
+@media (max-width: 790px) {
+  main {
+    padding: 0;
+  }
+
+  /* NAVIGATION */
+
+  .sub-nav {
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  .sub-nav a {
+    flex-basis: 50%;
+    text-align: center;
+    border-bottom: solid 3px #f2f2f2;
+  }
+
+  .sub-nav a:hover {
+    border-bottom: 3px solid #0065fc;
+    border-top-color: transparent;
+  }
+
+  /* RECHERCHE */
+
+  .search .search-text {
+    display: none;
+  }
+
+  .search button {
+    color: white;
+    background-color: #0065fc;
+  }
+
+  .fa-search {
+    display: flex;
+    padding: 16px;
+  }
+
+  /* POPULAIRES */
+
+  .popular-housing {
+    flex-direction: column;
+    margin: inherit;
+  }
+
+  .popular {
+    order: -1;
+    flex-direction: column;
+    border-radius: inherit;
+  }
+
+  .popular h4 {
+    height: 32px;
+  }
+
+  .popular-text {
+    display: flex;
+  }
+
+  .popular-flex .stars {
+    padding-top: 64px;
+  }
+
+  .popular-flex .stars-coeurdeleau {
+    padding-top: 64px;
+  }
+
+  /* HEBERGEMENTS */
+
+  #housing {
+    display: flex;
+    flex-direction: column;
+    background: white;
+  }
+
+  .hebergements-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hebergements-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-list {
+    padding-top: 16px;
+  }
+
+  .footer h3 {
+    padding-left: 40px;
+    padding-bottom: 8px;
+    padding-top: 16px;
+  }
+}
