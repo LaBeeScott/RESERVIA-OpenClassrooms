@@ -1,0 +1,26 @@
+/* FOOTER */
+
+.footer {
+  padding: 32px 0;
+  background-color: #f2f2f2;
+  display: flex;
+}
+
+.footer-list {
+  flex-basis: 33%;
+}
+
+.footer-list li {
+  padding-top: 11.2px;
+}
+
+.footer h3 {
+  padding-left: 40px;
+  padding-bottom: 16px;
+}
+
+.footer a:hover {
+  color: #0065fc;
+  transform: scale(1.02);
+  cursor: pointer;
+}
