@@ -98,6 +98,10 @@
 
   /* RECHERCHE */
 
+  .search input {
+    border: 2px solid #f2f2f2;
+  }
+
   .search .search-text {
     display: none;
   }
@@ -105,6 +109,8 @@
   .search button {
     color: white;
     background-color: #0065fc;
+    border-radius: 16px;
+    margin-left: -16px;
   }
 
   .fa-search {
