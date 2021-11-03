@@ -162,6 +162,7 @@
 
   .popular-flex .stars {
     margin-top: 0;
+    padding-top: 64px;
   }
 
   .popular-flex .stars-coeurdeleau {
