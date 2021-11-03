@@ -12,12 +12,38 @@
   }
 
   .popular-card {
-    width: 30%;
+    display: flex;
+    width: 31%;
+    height: 200px;
+  }
+
+  .popular-card img {
+    height: 100%;
+  }
+
+  .popular-card .popular-flex h4 {
+    margin: 0;
+    height: 70px;
+  }
+
+  .popular-card-flex {
+    display: flex;
     flex-direction: row;
+    gap: 32px;
+  }
+
+  .popular-flex .stars-soleil_du_matin {
+    margin-top: 60px;
+    padding: 0;
   }
 
   .popular-flex .stars-coeurdeleau {
-    padding-top: 73px;
+    padding-top: 50px;
+  }
+
+  .popular-flex .stars-tout_bleu_et_blanc {
+    margin-top: 60px;
+    padding: 0;
   }
 
   /* HEBERGEMENTS */
@@ -60,7 +86,7 @@
   }
 }
 
-@media (max-width: 790px) {
+@media (max-width: 820px) {
   main {
     padding: 0;
   }
@@ -120,6 +146,14 @@
 
   .popular h4 {
     height: 32px;
+  }
+
+  .popular-card-flex {
+    flex-direction: column;
+  }
+
+  .popular-card {
+    width: 100%;
   }
 
   .popular-text {
