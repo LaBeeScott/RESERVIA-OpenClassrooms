@@ -11,12 +11,8 @@
     order: -1;
   }
 
-  .populaires {
-    flex-basis: 33%;
-  }
-
   .popular-card {
-    display: flex;
+    width: 30%;
     flex-direction: row;
   }
 
